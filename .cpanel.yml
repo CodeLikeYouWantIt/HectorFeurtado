@@ -2,7 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/hectowjo/public_html/
-    - cp ./public/index.html $DEPLOYPATH
+    - cp ./dist/index.html $DEPLOYPATH
     - cp -R src $DEPLOYPATH
     - cp package.json $DEPLOYPATH
 
