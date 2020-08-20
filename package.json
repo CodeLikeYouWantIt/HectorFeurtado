@@ -1,0 +1,27 @@
+{
+  "name": "HectorFeurtado",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeLikeYouWantIt/HectorFeurtado.git"
+  },
+  "keywords": [],
+  "author": "Hector Feurtado <HectorFeurtado@gmail.com> (http://hectorfeurtado.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeLikeYouWantIt/HectorFeurtado/issues"
+  },
+  "homepage": "https://github.com/CodeLikeYouWantIt/HectorFeurtado#readme",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "serve": "^11.3.2"
+  }
+}
