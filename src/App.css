@@ -1,39 +1,64 @@
+body, html {
+    height: 100%;
+    margin: auto;
+}
+
 .App{
-    color:green;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-family: cursive;
+    color: #2D2D2D;
+
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: (3, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(300px, auto);
   }
-  .one {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    background-color: green;
+  .one{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image:url(../public/images/holdinghands_sidelook.jpg);
+    background-position-x: 45%;
+    background-position-y: 28%;
   }
   .two { 
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
-    background-color: bisque;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-image: url(../public/images/Front_holding_hands.jpg);
+    background-position-x: 35%;
+
   }
   .three {
-    grid-column: 1;
-    grid-row: 2 / 5;
-    background-color:lavenderblush;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(../public/images/ME_handscrossed_smiling.jpg);
+    background-position-x: 55%;
+    background-position-y: 13%;
   }
   .four {
-    grid-column: 3;
-    grid-row: 3;
-    background-color:salmon;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(../public/images/bw_sidelook.jpg);
+    background-position-x: 70%;
+    background-position-y: 40%;
+
+
   }
   .five {
-    grid-column: 2;
-    grid-row: 4;
-    background-color:aqua;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(../public/images/me_smiling_ariel.jpg);
+    background-position-x: 35%;
+    background-position-y: 30%;
   }
   .six {
-    grid-column: 3;
-    grid-row: 4;
-    background-color:cornflowerblue;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url(../public/images/me_cuff.jpg);
+    background-position-x: 40%;
+    background-position-y: 43%;
+
   }

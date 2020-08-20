@@ -28357,7 +28357,7 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
+},{"./../public/images/holdinghands_sidelook.jpg":[["holdinghands_sidelook.9a6294cc.jpg","images/holdinghands_sidelook.jpg"],"images/holdinghands_sidelook.jpg"],"./../public/images/Front_holding_hands.jpg":[["Front_holding_hands.ba73928e.jpg","images/Front_holding_hands.jpg"],"images/Front_holding_hands.jpg"],"./../public/images/ME_handscrossed_smiling.jpg":[["ME_handscrossed_smiling.76f29dd3.jpg","images/ME_handscrossed_smiling.jpg"],"images/ME_handscrossed_smiling.jpg"],"./../public/images/bw_sidelook.jpg":[["bw_sidelook.fda312d3.jpg","images/bw_sidelook.jpg"],"images/bw_sidelook.jpg"],"./../public/images/me_smiling_ariel.jpg":[["me_smiling_ariel.e62f5947.jpg","images/me_smiling_ariel.jpg"],"images/me_smiling_ariel.jpg"],"./../public/images/me_cuff.jpg":[["me_cuff.bc4946ac.jpg","images/me_cuff.jpg"],"images/me_cuff.jpg"],"_css_loader":"../../../../../../../usr/local/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"../src/App.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -28411,21 +28411,21 @@ var App = /*#__PURE__*/function (_Component) {
     value: function render() {
       return /*#__PURE__*/_react.default.createElement("div", {
         className: "App"
+      }, /*#__PURE__*/_react.default.createElement("h1", null, "Pic cred coming soon!"), /*#__PURE__*/_react.default.createElement("p", null, "-PS I love you-"), /*#__PURE__*/_react.default.createElement("div", {
+        className: "wrapper"
       }, /*#__PURE__*/_react.default.createElement("div", {
-        class: "wrapper"
-      }, /*#__PURE__*/_react.default.createElement("div", {
-        class: "one"
-      }, "One"), /*#__PURE__*/_react.default.createElement("div", {
-        class: "two"
-      }, "Two"), /*#__PURE__*/_react.default.createElement("div", {
-        class: "three"
-      }, "Three"), /*#__PURE__*/_react.default.createElement("div", {
-        class: "four"
-      }, "Four"), /*#__PURE__*/_react.default.createElement("div", {
-        class: "five"
-      }, "Five"), /*#__PURE__*/_react.default.createElement("div", {
-        class: "six"
-      }, "Six")));
+        className: "one"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "two"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "three"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "four"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "five"
+      }), /*#__PURE__*/_react.default.createElement("div", {
+        className: "six"
+      })));
     }
   }]);
 
@@ -28474,7 +28474,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49690" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "62516" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
