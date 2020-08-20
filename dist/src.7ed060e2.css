@@ -1,41 +1,66 @@
+body, html {
+    height: 100%;
+    margin: auto;
+}
+
 .App{
-    color:green;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    font-family: cursive;
+    color: #2D2D2D;
+
 }
 .wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: (3, 1fr);
     grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
+    grid-auto-rows: minmax(300px, auto);
   }
-  .one {
-    grid-column: 1 / 3;
-    grid-row: 1;
-    background-color: green;
+  .one{
+    grid-column: 1/4;
+    grid-row: 1/2;
+    background-image:url(/holdinghands_sidelook.9a6294cc.jpg);
+    background-position-x: 45%;
+    background-position-y: 28%;
   }
   .two { 
-    grid-column: 2 / 4;
-    grid-row: 1 / 3;
-    background-color: bisque;
+    grid-column: 1/2;
+    grid-row: 2/4;
+    background-image: url(/Front_holding_hands.ba73928e.jpg);
+    background-position-x: 35%;
+
   }
   .three {
-    grid-column: 1;
-    grid-row: 2 / 5;
-    background-color:lavenderblush;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url(/ME_handscrossed_smiling.76f29dd3.jpg);
+    background-position-x: 55%;
+    background-position-y: 13%;
   }
   .four {
-    grid-column: 3;
-    grid-row: 3;
-    background-color:salmon;
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-image: url(/bw_sidelook.fda312d3.jpg);
+    background-position-x: 70%;
+    background-position-y: 40%;
+
+
   }
   .five {
-    grid-column: 2;
-    grid-row: 4;
-    background-color:aqua;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url(/me_smiling_ariel.e62f5947.jpg);
+    background-position-x: 35%;
+    background-position-y: 30%;
   }
   .six {
-    grid-column: 3;
-    grid-row: 4;
-    background-color:cornflowerblue;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-image: url(/me_cuff.bc4946ac.jpg);
+    background-position-x: 40%;
+    background-position-y: 43%;
+
   }
 
 /*# sourceMappingURL=/src.7ed060e2.css.map */
